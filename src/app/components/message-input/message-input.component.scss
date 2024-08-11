@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+.message-input-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.message-input-field {
+  flex-grow: 1;
+  margin-right: 10px;
+}

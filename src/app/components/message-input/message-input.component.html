@@ -1,0 +1,9 @@
+<div class="message-input-container">
+  <mat-form-field class="message-input-field" appearance="outline">
+    <mat-label>Type a message</mat-label>
+    <input (keydown)="onKeyPress($event)" matInput [(ngModel)]="newMessage" />
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="sendMessage()">
+    Send
+  </button>
+</div>

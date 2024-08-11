@@ -1,0 +1,7 @@
+<mat-list>
+  <mat-list-item *ngFor="let message of messages">
+    <!-- <mat-icon matListIcon>person</mat-icon> -->
+    <div matLine>{{ message.sender }}</div>
+    <div matLine class="message-content">{{ message.content }}</div>
+  </mat-list-item>
+</mat-list>

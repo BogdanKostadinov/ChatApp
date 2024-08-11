@@ -1,0 +1,12 @@
+<div class="page-container">
+  <mat-toolbar color="primary">
+    <mat-icon>chat</mat-icon>
+    Chat App
+  </mat-toolbar>
+
+  <div class="chat-container">
+    <app-message-list #messageList></app-message-list>
+    <app-message-input
+      (messageSent)="messageList.addMessage($event)"></app-message-input>
+  </div>
+</div>

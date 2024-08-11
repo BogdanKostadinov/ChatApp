@@ -1,0 +1,26 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+mat-toolbar {
+  flex-shrink: 0;
+}
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+app-message-list {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+app-message-input {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}

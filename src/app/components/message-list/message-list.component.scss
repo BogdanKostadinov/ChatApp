@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  height: 100%;
+}
+mat-list {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+mat-list-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+  overflow: visible;
+  height: auto !important;
+
+  mat-icon {
+    margin-right: 10px;
+    align-self: center;
+  }
+
+  .message-content {
+    color: gray;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+}
